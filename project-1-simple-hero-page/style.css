@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #333;
+}
+/* ========= VARIABLES ========= */
+:root {
+  --primary-color: #a9baf6;
+  --accent-color: #e495d7;
+  --white: #fff;
+}
+/* ========= CONTAINER ========= */
+.container {
+  min-height: 100vh;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 2.5rem 5rem;
+  box-sizing: border-box;
+}
+/* ========= NAVBAR ========= */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  cursor: pointer;
+}
+/* Logo and Cart Styling */
+.logo {
+  width: 10rem;
+}
+.cart {
+  width: 3rem;
+  height: 3rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* content  */
+.content {
+  margin-top: 10%;
+  margin-left: 10%;
+  position: relative;
+}
+.content a {
+  text-decoration: none;
+  background: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--accent-color)
+  );
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-weight: 500;
+  display: inline-block;
+}
+.content h1 {
+  font-size: 3.5rem;
+  margin: 1rem 0;
+  line-height: 1.2;
+}
+.content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+/* arrows  */
+.arrow-icons img {
+  width: 2.3rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.arrow-icons img:hover {
+  transform: scale(1.1);
+}
+.arrow-icons .right {
+  margin-left: 1rem;
+}
+
+.hero-image {
+  height: 90%;
+  position: absolute;
+  right: 5rem;
+  bottom: 0;
+  object-fit: contain;
+}
+
+/* social links  */
+.sociial-links {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -3rem;
+  bottom: 10rem;
+}
+.sociial-links a {
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+/* ========= ANIMATION ========= */
+.content a,
+.content h1,
+.content p,
+.arrow-icons img,
+.hero-image,
+.sociial-links a {
+  opacity: 0;
+}
+/* fade in part  */
+.animate-fadeInUP {
+  animation: fadeInUp 1s ease forwards;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* set delay for fadeInUp  */
+
+/* in h1  */
+.animate-fadeInUp-delay1 {
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.5s;
+}
+/* in p  */
+.animate-fadeInUp-delay2 {
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1s;
+}
+/* in next and back  */
+.animate-fadeInUp-delay3 {
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1.5s;
+}
