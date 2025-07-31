@@ -1,4 +1,4 @@
-# 💻 HTML | CSS | JavaScript | FRONTEND Projects
+# 💻 HTML | CSS | FRONTEND Projects
 
 Welcome to my frontend project showcase — a collection of responsive, interactive websites built using **HTML**, **CSS**, . These projects demonstrate practical UI/UX, and user-friendly design, all deployed and accessible online.
 
