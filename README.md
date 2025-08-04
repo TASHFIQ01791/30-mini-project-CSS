@@ -9,6 +9,7 @@ Welcome to my frontend project showcase — a collection of responsive, interact
 | No. | Project Name         | Technologies Used         | Live / Preview                                |
 |-----|----------------------|---------------------------|------------------------------------------------|
 | 1   | css-hero-design      | HTML, CSS     | [Live Preview](https://css-hero-design-animation.netlify.app/) |
+| 2   | simple-card-design   | HTML, CSS     | [Live Preview](https://simple-card-design-for-practice.netlify.app/) |
 
 > 📌 Projects will be added continuously as I build them — stay tuned!
 
